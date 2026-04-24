@@ -1,6 +1,6 @@
 from domaine.Entities.survey import Survey
 from Infrastructure.surveyRepository import surveyRepository
-from domaine.Interfaces.surveyInterface import Isurvey
+
 class surveyUseCase:
     def __init__(self, survey:Isurvey):
         self.survey = survey
